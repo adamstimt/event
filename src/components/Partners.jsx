@@ -1,7 +1,7 @@
 import React from 'react';
 import partnerBg from '../imgs/partner-1.png'; 
 import cardImg1 from '../imgs/prtnr-crd-1.png';
-import cardImg2 from '../imgs/prtnr-crd-2.png';
+import cardImg2 from '../imgs/IBM Quantum Logo.png';
 import cardImg3 from '../imgs/partner-card-3.png';
 
 const Partners = () => {
@@ -64,12 +64,12 @@ const Partners = () => {
             <img 
               src={cardImg2} 
               alt="Partner 2" 
-              className="w-full h-47 object-contain transition-transform duration-300 hover:scale-105 mx-auto py-2" 
-              style={{ borderTopLeftRadius: '20px', borderTopRightRadius: '20px' }}
+              className="w-full h-47 bg-white  object-contain  transition-transform duration-300 hover:scale-105 mx-auto py-2 " 
+              style={{ borderTopLeftRadius: '20px', borderTopRightRadius: '20px' ,borderBottomLeftRadius:'20px',borderBottomRightRadius:'20px' }}
             />
           </div>
           <div className="p-6 flex flex-col flex-grow">
-            <h3 className="text-xl font-bold mb-2 text-white">IBM Quantum / Qiskit</h3>
+            <h3 className="text-xl font-bold mb-2 text-white">IBM Quantum </h3>
             <p className="text-gray-200 flex-grow">
               providing global reach, credibility, and access to the world's largest quantum community.
             </p>

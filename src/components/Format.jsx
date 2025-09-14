@@ -1,6 +1,6 @@
 import React from "react";
-import { Clock, MapPin } from "lucide-react"; 
-import imgFormat from "../imgs/Format1.png"; 
+import { Clock, MapPin } from "lucide-react";
+import imgFormat from "../imgs/Format1.png";
 
 const Format = () => {
   return (
@@ -17,16 +17,19 @@ const Format = () => {
               Event Format
             </h2>
             <p className="text-lg text-white/90 leading-relaxed">
-              The Qiskit Fall Fest at University of Blida 1 is an in-person event
-              packed with workshops, talks, and interactive sessions. You'll get a
-              chance to learn, connect, and explore the future of quantum
-              computing in a collaborative environment.
+              This Qiskit Fall Fest is a hybrid event. The online part includes
+              lectures and an introductory workshop on quantum computing:
+              "QBronze", provided by the QAlgeria and CQTech teams. The on-site
+              part includes workshops and challenges, and will take place at the
+              University of Saad Dahleb, Blida, Algeria.
             </p>
 
             {/* Date */}
             <div className="flex items-center space-x-3">
               <Clock className="text-orange-400 w-6 h-6" />
-              <span className="text-white font-medium">October 15, 2025</span>
+              <span className="text-white font-medium">
+                1 to 15 November, 2025
+              </span>
             </div>
 
             {/* Location */}
@@ -53,7 +56,7 @@ const Format = () => {
           <h3 className="text-3xl font-bold text-center mb-10 text-white">
             Onsite Agenda
           </h3>
-          
+
           {/* Timeline Schedule */}
           <div className="space-y-4">
             {/* Schedule Item 1 */}
@@ -62,51 +65,61 @@ const Format = () => {
                 08:30 AM
               </div>
               <div className="bg-white/10 p-4 rounded-lg flex-1 backdrop-blur-sm border-l-4 border-orange-400">
-                <h4 className="font-bold text-lg text-white mb-1">Check-in & Welcome</h4>
+                <h4 className="font-bold text-lg text-white mb-1">
+                  Check-in & Welcome
+                </h4>
                 <p className="text-white/80">description</p>
               </div>
             </div>
-            
+
             {/* Schedule Item 2 */}
             <div className="flex items-start">
               <div className="bg-orange-500 text-white font-bold py-2 px-4 rounded-lg min-w-[110px] text-center mr-6 flex-shrink-0">
                 09:00 AM
               </div>
               <div className="bg-white/10 p-4 rounded-lg flex-1 backdrop-blur-sm border-l-4 border-orange-400">
-                <h4 className="font-bold text-lg text-white mb-1">Opening Ceremony</h4>
+                <h4 className="font-bold text-lg text-white mb-1">
+                  Opening Ceremony
+                </h4>
                 <p className="text-white/80">descriptin</p>
               </div>
             </div>
-            
+
             {/* Schedule Item 3 */}
             <div className="flex items-start">
               <div className="bg-orange-500 text-white font-bold py-2 px-4 rounded-lg min-w-[110px] text-center mr-6 flex-shrink-0">
                 09:30 AM
               </div>
               <div className="bg-white/10 p-4 rounded-lg flex-1 backdrop-blur-sm border-l-4 border-orange-400">
-                <h4 className="font-bold text-lg text-white mb-1">first workshop</h4>
+                <h4 className="font-bold text-lg text-white mb-1">
+                  first workshop
+                </h4>
                 <p className="text-white/80">descriptin</p>
               </div>
             </div>
-            
+
             {/* Schedule Item 4 */}
             <div className="flex items-start">
               <div className="bg-orange-500 text-white font-bold py-2 px-4 rounded-lg min-w-[110px] text-center mr-6 flex-shrink-0">
                 11:00 AM
               </div>
               <div className="bg-white/10 p-4 rounded-lg flex-1 backdrop-blur-sm border-l-4 border-orange-400">
-                <h4 className="font-bold text-lg text-white mb-1">first challenge</h4>
+                <h4 className="font-bold text-lg text-white mb-1">
+                  first challenge
+                </h4>
                 <p className="text-white/80">descriptin</p>
               </div>
             </div>
-            
+
             {/* Schedule Item 5 */}
             <div className="flex items-start">
               <div className="bg-orange-500 text-white font-bold py-2 px-4 rounded-lg min-w-[110px] text-center mr-6 flex-shrink-0">
                 12:30 PM
               </div>
               <div className="bg-white/10 p-4 rounded-lg flex-1 backdrop-blur-sm border-l-4 border-orange-400">
-                <h4 className="font-bold text-lg text-white mb-1">lunch break</h4>
+                <h4 className="font-bold text-lg text-white mb-1">
+                  lunch break
+                </h4>
                 <p className="text-white/80">descriptin</p>
               </div>
             </div>
@@ -117,7 +130,9 @@ const Format = () => {
                 01:00 PM
               </div>
               <div className="bg-white/10 p-4 rounded-lg flex-1 backdrop-blur-sm border-l-4 border-orange-400">
-                <h4 className="font-bold text-lg text-white mb-1">second workshop</h4>
+                <h4 className="font-bold text-lg text-white mb-1">
+                  second workshop
+                </h4>
                 <p className="text-white/80">descriptin</p>
               </div>
             </div>
@@ -128,7 +143,9 @@ const Format = () => {
                 02:30 PM
               </div>
               <div className="bg-white/10 p-4 rounded-lg flex-1 backdrop-blur-sm border-l-4 border-orange-400">
-                <h4 className="font-bold text-lg text-white mb-1">second challenge</h4>
+                <h4 className="font-bold text-lg text-white mb-1">
+                  second challenge
+                </h4>
                 <p className="text-white/80">descriptin</p>
               </div>
             </div>
@@ -139,11 +156,12 @@ const Format = () => {
                 04:15 PM
               </div>
               <div className="bg-white/10 p-4 rounded-lg flex-1 backdrop-blur-sm border-l-4 border-orange-400">
-                <h4 className="font-bold text-lg text-white mb-1">closing Ceremony</h4>
+                <h4 className="font-bold text-lg text-white mb-1">
+                  closing Ceremony
+                </h4>
                 <p className="text-white/80">descriptin</p>
               </div>
             </div>
-
           </div>
         </div>
       </div>
