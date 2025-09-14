@@ -37,7 +37,7 @@ const Footer = () => {
                 alt="Qiskit Fall Fest Logo" 
                 className="h-12 w-12 md:h-14 md:w-14 mb-3 md:mb-0 md:mr-3"
               />
-              <h2 className="text-xl md:text-3xl font-extrabold leading-tight">Qiskit Fall Fest 2025 – Algeria</h2>
+              <h2 className="text-xl md:text-3xl font-extrabold leading-tight">Qiskit Fall Fest 2025 – Blida</h2>
             </div>
             <div className="ml-0 md:ml-18 mt-4 md:mt-6">
                 <p className="max-w-md mb-4 text-white/95 text-sm md:text-base font-montserrat">
@@ -46,11 +46,11 @@ const Footer = () => {
                 <div className="flex flex-col space-y-2 font-montserrat items-center md:items-start">
                   <div className="flex items-center">
                       <MapPin className="h-4 w-4 md:h-5 md:w-5 mr-2" />
-                      <span className="text-sm md:text-base">Algiers, Algeria</span>
+                      <span className="text-sm md:text-base">Algiers, Blida</span>
                   </div>
                   <div className="flex items-center">
                       <Mail className="h-4 w-4 md:h-5 md:w-5 mr-2" />
-                      <span className="text-sm md:text-base">contact@qiskit-algeria.org</span>
+                      <span className="text-sm md:text-base">contact.itc.blida@gmail.com</span>
                   </div>
                 </div>
             </div>

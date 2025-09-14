@@ -64,7 +64,7 @@ const Partners = () => {
             <img 
               src={cardImg2} 
               alt="Partner 2" 
-              className="w-full h-47 bg-white  object-contain  transition-transform duration-300 hover:scale-105 mx-auto py-2 " 
+              className="w-[310px] h-44 mt-1 bg-white  object-contain  transition-transform duration-300 hover:scale-105 mx-auto py-2 " 
               style={{ borderTopLeftRadius: '20px', borderTopRightRadius: '20px' ,borderBottomLeftRadius:'20px',borderBottomRightRadius:'20px' }}
             />
           </div>
