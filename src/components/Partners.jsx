@@ -1,7 +1,7 @@
 import React from 'react';
 import partnerBg from '../imgs/partner-1.png'; 
 import cardImg1 from '../imgs/prtnr-crd-1.png';
-import cardImg2 from '../imgs/IBM Quantum Logo.png';
+import cardImg2 from '../imgs/IBM_Quantum_logotype_pos_RGB-edited.png';
 import cardImg3 from '../imgs/partner-card-3.png';
 
 const Partners = () => {
