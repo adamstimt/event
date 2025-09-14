@@ -46,7 +46,7 @@ const Footer = () => {
                 <div className="flex flex-col space-y-2 font-montserrat items-center md:items-start">
                   <div className="flex items-center">
                       <MapPin className="h-4 w-4 md:h-5 md:w-5 mr-2" />
-                      <span className="text-sm md:text-base">Algiers, Blida</span>
+                      <span className="text-sm md:text-base">Blida, Algeria</span>
                   </div>
                   <div className="flex items-center">
                       <Mail className="h-4 w-4 md:h-5 md:w-5 mr-2" />
