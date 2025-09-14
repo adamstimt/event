@@ -65,8 +65,7 @@ const Speaker1 = () => {
             Speakers
           </h3>
           <p className="text-white/90 text-lg md:text-xl">
-            SpeakersThe Qiskit Fall Fest will feature inspiring talks and workshops led by IBM Quantum experts,
-            researchers, and community leaders. Our speakers will share their insights on the future of quantum technologies,
+            SpeakersThe Qiskit Fall Fest will feature inspiring talks and workshops . Our speakers will share their insights on the future of quantum technologies,
             practical applications, and opportunities for students to get involved.
           </p>
         </motion.div>
